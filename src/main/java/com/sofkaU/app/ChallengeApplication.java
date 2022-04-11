@@ -52,6 +52,11 @@ public class ChallengeApplication {
 							System.out.println("***********-GAME OVER-***********");
 							System.out.println("Respuesta incorrecta");
 							score = score;
+							player.setScore(score);
+							repository.save(player);
+							System.out.println("***********-SCORE-***********");
+							repository.listPlayers().forEach(System.out::println);
+							break;
 						}
 						System.out.println("***********-LEVEL 2-***********");
 						Category2.categoria2();
@@ -62,6 +67,11 @@ public class ChallengeApplication {
 							System.out.println("***********-GAME OVER-***********");
 							System.out.println("Respuesta incorrecta");
 							score = score;
+							player.setScore(score);
+							repository.save(player);
+							System.out.println("***********-SCORE-***********");
+							repository.listPlayers().forEach(System.out::println);
+							break;
 						}
 						System.out.println("***********-LEVEL 3-***********");
 						Category3.categoria3();
@@ -72,6 +82,11 @@ public class ChallengeApplication {
 							System.out.println("***********-GAME OVER-***********");
 							System.out.println("Respuesta incorrecta");
 							score = score;
+							player.setScore(score);
+							repository.save(player);
+							System.out.println("***********-SCORE-***********");
+							repository.listPlayers().forEach(System.out::println);
+							break;
 						}
 						System.out.println("***********-LEVEL 4-***********");
 						Category4.categoria4();
@@ -82,6 +97,11 @@ public class ChallengeApplication {
 							System.out.println("***********-GAME OVER-***********");
 							System.out.println("Respuesta incorrecta");
 							score = score;
+							player.setScore(score);
+							repository.save(player);
+							System.out.println("***********-SCORE-***********");
+							repository.listPlayers().forEach(System.out::println);
+							break;
 						}
 						System.out.println("***********-LEVEL 5-***********");
 						Category5.categoria5();
@@ -92,6 +112,11 @@ public class ChallengeApplication {
 							System.out.println("***********-GAME OVER-***********");
 							System.out.println("Respuesta incorrecta");
 							score = score;
+							player.setScore(score);
+							repository.save(player);
+							System.out.println("***********-SCORE-***********");
+							repository.listPlayers().forEach(System.out::println);
+							break;
 						}
 
 						player.setScore(score);
